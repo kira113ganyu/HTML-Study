@@ -7,11 +7,11 @@ body {
 /** ヘッダー */
 
 .header_container {
+  background-color: darkslategray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 18px 0 8px 0;
-  background-color: rgb(77, 70, 70);
 }
 
 .header_logo {
@@ -24,6 +24,11 @@ body {
 }
 
 .header_menu {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 /* リンク文字 */
