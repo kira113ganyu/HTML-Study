@@ -43,3 +43,24 @@ a:hover {
 
 .contents_item h1 {
 }
+
+h1 {
+  color: rgb(85, 189, 0);
+  font-size: 50px;
+  word-break: break-all;
+}
+.description .text {
+  color: rgb(252, 252, 255);
+  width: 50%;
+  word-break: break-all;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.member {
+  background-color: black;
+  color: white;
+}
